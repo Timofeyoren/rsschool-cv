@@ -50,6 +50,7 @@ h2 {
 .photo {
     width: 300px;
     border-radius: 180px;
+    text-align: center;
 }
 
 .footer {
