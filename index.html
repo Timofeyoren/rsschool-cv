@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>CV</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <!-- <link rel="icon" href="assets/icon.ico"> -->
 </head>
 
@@ -12,23 +12,29 @@
     
     <header>
         <nav>
-            <ul>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-                <li> </li>
+            <ul class="nav-menu">
+                <li ><a href="#profile" class="nav-link">Profile</a></li>
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li><a href="#summary" class="nav-link">Summary</a></li>
+                <li><a href="#code" class="nav-link">Code</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#english" class="nav-link">English</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="main-container">
 
-        <section id="profile">
+        <section class="section" id="photo">
+            <img class="photo" src="/img/Ava.jpg" alt="My photo">
+        </section>
+
+        <section class="section" id="profile">
             <h1>Timofey Malikov</h1>
         </section>
 
-        <section id="contacts">
+        <section class="section" id="contacts">
             <h2>Contacts</h2>
             <ul>
                 <li>Email: <a href="mailto:timofeyoren@gmail.com">timofeyoren@gmail.com</a></li>
@@ -36,7 +42,7 @@
             </ul>
         </section>
 
-        <section id="summary">
+        <section class="section" id="summary">
             <h2>About Me</h2>
             <p>Lead engineer in operation control system and communications.</p>
             <ul>
@@ -48,30 +54,38 @@
             </ul>           
         </section>
 
-        <section id="code">
+        <section class="section" id="code">
             <h2>Code Example</h2>
+            <code>
+                function multiply(a, b){
+                    return a * b
+                  }   
+            </code>
         </section>
 
-        <section id="experience">
+        <section class="section" id="experience">
             <h2>Experience</h2>
             <p>Extensive experience in building communication networks</p>
-            <p>My first</p> <a href="https://github.com/Timofeyoren/rsschool-cv/blob/gh-pages/cv.md">project</a>
+            <p>My first <a href="https://github.com/Timofeyoren/rsschool-cv/blob/gh-pages/cv.md">project</a></p> 
         </section>
 
-        <section id="education">
+        <section class="section" id="education">
             <h2>Education</h2>
             <p>Higher education in IT and programming</p>
         </section>
 
-        <section id="english">
+        <section class="section" id="english">
             <h2>English</h2>
             <p>A2 (I keep learning)</p>
         </section>
 
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <div class="nav-link">
+            2022 <a class="nav-link" href="https://github.com/Timofeyoren/">GitHub</a> <img class="nav-link" src="https://rs.school/images/rs_school_js.svg" alt="Logo rs" width="100px"> 
+            <a class="nav-link" href="https://rs.school/js/">RS school</a>
+        </div>
     </footer>
 
 </body>
