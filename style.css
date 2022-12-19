@@ -59,3 +59,9 @@ h2 {
     list-style: none;
     background-color:#aed9e0;  
 }
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
